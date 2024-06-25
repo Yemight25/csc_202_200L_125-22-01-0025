@@ -64,24 +64,24 @@ nr_letters = int(input("How many letters would you like in your password?\n"))
 nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
-password_list = []
+# password_list = []
 
-for n in range(1, nr_letters + 1):
-    password_list.append(random.choice(letters))
+# for n in range(1, nr_letters + 1):
+#     password_list.append(random.choice(letters))
 
-for n in range(1, nr_symbols + 1):
-    password_list += random.choice(symbols)
+# for n in range(1, nr_symbols + 1):
+#     password_list += random.choice(symbols)
 
-for n in range(1, nr_numbers + 1):
-    password_list += random.choice(numbers)
+# for n in range(1, nr_numbers + 1):
+#     password_list += random.choice(numbers)
 
-random.shuffle(password_list)
+# random.shuffle(password_list)
 
-password = ""
-for n in password_list:
-    password += n
+# password = ""
+# for n in password_list:
+#     password += n
 
-print(f"Your password is: {password}")
+# print(f"Your password is: {password}")
 
 # LESSON
 
@@ -97,26 +97,26 @@ for char in range(1, nr_symbols + 1):
 for char in range(1, nr_numbers + 1):
     password += random.choice(numbers)
 
-print(password)
+print(f" You password is: {password}")
 
 # Hard Level
-password_list = []
+# password_list = []
 
-for char in range(1, nr_letters + 1):
-    password_list.append(random.choice(letters))
+# for char in range(1, nr_letters + 1):
+#     password_list.append(random.choice(letters))
 
-for char in range(1, nr_symbols + 1):
-    password_list += random.choice(symbols)
+# for char in range(1, nr_symbols + 1):
+#     password_list += random.choice(symbols)
 
-for char in range(1, nr_numbers + 1):
-    password_list += random.choice(numbers)
+# for char in range(1, nr_numbers + 1):
+#     password_list += random.choice(numbers)
 
-print(password_list)
-random.shuffle(password_list)
-print(password_list)
+# print(password_list)
+# random.shuffle(password_list)
+# print(password_list)
 
-password = ""
-for char in password_list:
-    password += char
+# password = ""
+# for char in password_list:
+#     password += char
 
-print(f"Your password is: {password}")
+# print(f"Your password is: {password}")
